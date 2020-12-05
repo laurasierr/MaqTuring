@@ -1,0 +1,107 @@
+/*------------ flecha--------------- */
+.contriangulo {
+    font-size: 10px;
+    padding: 0%;
+}
+
+.triangle {
+    position: relative;
+    width: 0;
+    border-bottom: solid 2.8em black;
+    border-right: solid 1.7em transparent;
+    border-left: solid 1.7em transparent;
+    left: 49.5%;
+}
+
+.triangle .empty {
+    position: absolute;
+    top: 0.4em;
+    left: -1.3em;
+    width: 0;
+    border-bottom: solid 2.2em#f4a261;
+    border-right: solid 1.3em transparent;
+    border-left: solid 1.3em transparent;
+}
+.contriangulo {
+    position: relative;
+    top: -0.5rem;
+}
+/* -------------------------------- */
+
+/*---------diseño cinta-------------- */
+#slip {
+    display: flex;
+}
+
+#slip .items {
+    width: 5rem;
+    height: 2.5rem;
+    margin: 0.2rem;
+    background-color: #e76f51;
+    border-radius: 10%;
+}
+
+.items h3 {
+    text-align: center;
+    color: black;
+}
+
+.slick-next,
+.slick-prev {
+    visibility: hidden;
+}
+
+/* -------------------------------- */
+
+/* range-slideer */
+
+.slider{
+  -webkit-appearance: none;
+  width: 50%;
+  height: 20px;
+  background:linear-gradient(90deg,rgb(0, 0, 0) 50%,rgb(255, 255, 255) 50%) ;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition:opacity 0.2s;
+  border-radius: 12px;
+  box-shadow: 0px 1px 10px 1px rgba(255, 252, 252, 0.404);
+}
+.slider:hover{
+  opacity: 1;
+}
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #264653;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb{
+  width: 30px;
+  height: 30px;
+  background: rgb(96, 247, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer{
+  background-color: #000000;
+}
+.contrange {
+  padding-top: 2%;
+}
+/* .slider::after{
+  content: '100';
+  color:red;
+  font-size: 2rem;
+  position: absolute;
+  left: 80%;
+  top: 26%;
+}
+
+.contrange{
+  padding-top:2% ;
+}
